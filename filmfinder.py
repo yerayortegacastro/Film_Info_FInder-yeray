@@ -5,7 +5,6 @@ API_KEY = "46d07f61"
 
 st.title("Buscador de películas con OMDb")
 
-# Entrada del usuario
 title = st.text_input("Introduce el título de una película en inglés:", "Minions")
 
 if st.button("Buscar"):
@@ -16,7 +15,6 @@ if st.button("Buscar"):
     if data["Response"] == "True":
         st.header(f"{data.get('Title', 'Unknown')} ({data.get('Year', 'N/A')})")
 
-        # Mostrar poster si existe
         poster_url = data.get("Poster", "")
         if poster_url and poster_url != "N/A":
             st.image(poster_url, width=250)
@@ -33,6 +31,7 @@ if st.button("Buscar"):
         st.write(data.get("Plot", "No plot available"))
 
     else:
-        st.error("❌ Película no encontrada")
+        st.error("Película no encontrada")
 st.markdown("<hr>", unsafe_allow_html=True)
+
 st.markdown("<p style='text-align: center; color: grey;'>by yeray.</p>", unsafe_allow_html=True)
