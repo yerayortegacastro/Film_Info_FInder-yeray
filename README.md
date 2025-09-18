@@ -1,9 +1,9 @@
-This app is used in order to obtain information about a desired film, it is based on the OMDb API and streamlit.
+This app was made for a college assingment, it's used to obtain information about a desired film and it's based on the OMDb API and streamlit.
 Open https://filminfofinder-yeray.streamlit.app/ to execute it.
 
 
-https://www.omdbapi.com/
-https://streamlit.io/
+URL API: https://www.omdbapi.com/
+URL Streamlit: https://streamlit.io/
 
 
-v1.0
+v1.1
