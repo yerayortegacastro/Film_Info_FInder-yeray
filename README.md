@@ -3,7 +3,7 @@ Open https://filminfofinder-yeray.streamlit.app/ to execute it.
 
 
 API URL: https://www.omdbapi.com/
-URL Streamlit: https://streamlit.io/
+Streamlit URL: https://streamlit.io/
 
 
 v1.1
