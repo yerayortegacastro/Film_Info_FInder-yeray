@@ -2,7 +2,7 @@ This app was made for a college assingment, it's used to obtain information abou
 Open https://filminfofinder-yeray.streamlit.app/ to execute it.
 
 
-URL API: https://www.omdbapi.com/
+API URL: https://www.omdbapi.com/
 URL Streamlit: https://streamlit.io/
 
 
